@@ -15,6 +15,12 @@
     <title>James Bond Funktionsscharen</title>
     
 </head>
+
+<style>
+    h2 {
+        padding-bottom: 20px;
+    }
+</style>
 <body>
     
     <container>
@@ -22,6 +28,7 @@
         <h1>Verschiebung von Funktionen</h1>
         <p>Im Folgendem werden Sie sich verschiedene Möglichkeiten angucken, eine Funktion mithilfe von Parametern zu verändern.</p>
         <div>
+            <!-- Erste Aufgabe -->
         <h2>Veränderung der Funktion durch f(x)+d</h2>
         
         <div id="ggb-element"></div> 
@@ -32,17 +39,74 @@
                 applet.inject('ggb-element');
             });
         </script>
-        <h3>Arbeitsauftrag:</h3>
+        <h3 class="pt-3">Arbeitsauftrag:</h3>
         
         <ol style="gap:10px">
             <li>Geben Sie verschiedene Funktion in das obige Applet ein, dass der Form <a style="color:blue" data-toggle="tooltip"  title="Gemeint ist bspw. f(x) + 2">f(x)+d</a> entspricht.</li>
+            <li>
+                Geben Sie nun anstelle einer Zahl einen Buchstaben in das Applet ein und nutzen Sie den dann erscheinenen Regler, um sich deutlich zu machen, welchen Einfluss der Parameter auf die Funktion nimmt.
+            </li>
+            <li>
+                Schreiben Sie anschließend ihre Beobachtungen in ihr Heft.
+            </li>
         </ol>
         </div>
+        <div>
+        <hr>
+            <!-- Zweite Aufgabe -->
+        <h2>Veränderung der Funktion durch f(x+b)</h2>
+        
+        <div id="ggb-element1"></div> 
+        <script>  
+            var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false };
+            var applet = new GGBApplet(params, true);
+            window.addEventListener("load", function() { 
+                applet.inject('ggb-element1');
+            });
+        </script>
+        <h3 class="pt-3">Arbeitsauftrag:</h3>
+        
+        <ol style="gap:10px">
+            <li>Geben Sie verschiedene Funktion in das obige Applet ein, dass der Form <a style="color:blue" data-toggle="tooltip"  title="Gemeint ist bspw. f(x + 2)">f(x +b)</a> entspricht.</li>
+            <li>
+                Geben Sie nun anstelle einer Zahl einen Buchstaben in das Applet ein und nutzen Sie den dann erscheinenen Regler, um sich deutlich zu machen, welchen Einfluss der Parameter auf die Funktion nimmt.
+            </li>
+            <li>
+                Schreiben Sie anschließend ihre Beobachtungen in ihr Heft.
+            </li>
+        </ol>
+        </div>
+        <div>
+        <hr>
+            <!-- Dritte Aufgabe -->
+        <h2>Veränderung der Funktion durch af(x)</h2>
+        
+        <div id="ggb-element2"></div> 
+        <script>  
+            var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false };
+            var applet = new GGBApplet(params, true);
+            window.addEventListener("load", function() { 
+                applet.inject('ggb-element2');
+            });
+        </script>
+        <h3 class="pt-3">Arbeitsauftrag:</h3>
+        
+        <ol style="gap:10px">
+            <li>Geben Sie verschiedene Funktion in das obige Applet ein, dass der Form <a style="color:blue" data-toggle="tooltip"  title="Gemeint ist bspw. '2 mal f(x)'f(x)'">af(x)</a> entspricht.</li>
+            <li>
+                Geben Sie nun anstelle einer Zahl einen Buchstaben in das Applet ein und nutzen Sie den dann erscheinenen Regler, um sich deutlich zu machen, welchen Einfluss der Parameter auf die Funktion nimmt.
+            </li>
+            <li>
+                Schreiben Sie anschließend ihre Beobachtungen in ihr Heft.
+            </li>
+        </ol>
+        </div>
+
         <script>
                 $(document).ready(function(){
                   $('[data-toggle="tooltip"]').tooltip();
                 });
-                </script>
+              
         </script>
 
     </div>
