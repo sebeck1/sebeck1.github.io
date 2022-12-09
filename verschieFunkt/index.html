@@ -12,9 +12,11 @@
     <script src="https://www.geogebra.org/apps/deployggb.js"></script>
 </script>
 
-    <title>James Bond Funktionsscharen</title>
+    <title>Funktionen umformen</title>
     
 </head>
+
+
 
 <style>
     h2 {
@@ -22,7 +24,6 @@
     }
 </style>
 <body>
-    
     <container>
         <div class="p-4 d-flex align-items-center flex-column d-gap " style="gap:20px">
         <h1>Verschiebung von Funktionen</h1>
@@ -33,7 +34,9 @@
         
         <div id="ggb-element"></div> 
         <script>  
-            var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false };
+            var geo_app = "fxcjyqcw"
+           
+            var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false, "material_id":geo_app};
             var applet = new GGBApplet(params, true);
             window.addEventListener("load", function() { 
                 applet.inject('ggb-element');
@@ -42,7 +45,7 @@
         <h3 class="pt-3">Arbeitsauftrag:</h3>
         
         <ol style="gap:10px">
-            <li>Geben Sie verschiedene Funktion in das obige Applet ein, dass der Form <a style="color:blue" data-toggle="tooltip"  title="Gemeint ist bspw. f(x) + 2">f(x)+d</a> entspricht.</li>
+            <li>Geben Sie verschiedene Funktion in das obige <a style="color:blue" data-toggle="tooltip"  title="Gemeint ist eine von Geogebra zur Verfügung gestellte Möglichkeit, die App 'Geogebra' auf eine Webseite einzubinden.">Applet</a> ein, dass der Form <a style="color:blue" data-toggle="tooltip"  title="Gemeint ist bspw. f(x) + 2">f(x)+d</a> entspricht.</li>
             <li>
                 Geben Sie nun anstelle einer Zahl einen Buchstaben in das Applet ein und nutzen Sie den dann erscheinenen Regler, um sich deutlich zu machen, welchen Einfluss der Parameter auf die Funktion nimmt.
             </li>
@@ -58,10 +61,10 @@
         
         <div id="ggb-element1"></div> 
         <script>  
-            var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false };
-            var applet = new GGBApplet(params, true);
+            var params1 = {"appName": "graphing1", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false, "material_id": geo_app };
+            var applet1 = new GGBApplet(params1, true);
             window.addEventListener("load", function() { 
-                applet.inject('ggb-element1');
+                applet1.inject('ggb-element1');
             });
         </script>
         <h3 class="pt-3">Arbeitsauftrag:</h3>
@@ -83,10 +86,10 @@
         
         <div id="ggb-element2"></div> 
         <script>  
-            var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false };
-            var applet = new GGBApplet(params, true);
+            var params2 = {"appName": "graphing2", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false, "material_id":geo_app };
+            var applet2 = new GGBApplet(params2, true);
             window.addEventListener("load", function() { 
-                applet.inject('ggb-element2');
+                applet2.inject('ggb-element2');
             });
         </script>
         <h3 class="pt-3">Arbeitsauftrag:</h3>
@@ -102,6 +105,41 @@
         </ol>
         </div>
 
+    
+
+    <div>
+        <hr>
+            <!-- Dritte Aufgabe -->
+        <h2>Nun wird alles zusammen kombiniert</h2>
+        
+        <div id="ggb-element3"></div> 
+        <script>  
+            var params3 = {"appName": "graphing2", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false};
+            var applet3 = new GGBApplet(params3, true);
+            window.addEventListener("load", function() { 
+                applet3.inject('ggb-element3');
+            });
+        </script>
+        <h3 class="pt-3">Arbeitsauftrag:</h3>
+        
+        <ol style="gap:10px">
+            <li>Fügen Sie alle Parameter in eine Funktion zusammen.</li>
+            <li>
+                Nachfolgend sind zwei Funktionen gegeben. Wie lauten die zugehörigen Funktionen? Schreibe Sie die <a style="color:blue" data-toggle="tooltip"  title="Anderes Wort für Funktion; gemeint ist natürlich f(x)=...">Funktionsvorschrift</a> in Ihr Heft.
+            </li>
+        </ol>
+        <div class="d-flex" style="gap:20px">
+            <div class="d-flex flex-column">
+            <span>Bild 1</span>
+            <img src="Graph1.png" alt="..." class="img-thumbnail">
+            </div>
+            <div class="d-flex flex-column">
+                <span>Bild 2</span>
+                <img src="Graph2.png" alt="..." class="img-thumbnail">
+            </div>
+          </div>
+        </div>
+
         <script>
                 $(document).ready(function(){
                   $('[data-toggle="tooltip"]').tooltip();
@@ -110,6 +148,7 @@
         </script>
 
     </div>
+    
     </container>
     
 </body>
