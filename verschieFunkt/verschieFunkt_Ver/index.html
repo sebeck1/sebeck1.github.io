@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+</script>
+
+    <title>Funktionen umformen</title>
+    
+</head>
+
+
+
+<style>
+    h2 {
+        padding-bottom: 20px;
+    }
+</style>
+<body>
+    <container>
+        <div class="p-4 d-flex  flex-column" style="gap:20px">
+
+            <h1 class="text-center">Untersuchung: Nullstellen von Parameterfunktionen</h1>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <div>
+                        <img src="Stand_jetzt.png" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <ul>
+                        <li>Funktionen können mit verschiedenen Parametern verändert werden.</li>
+                        <li>Dabei hat jeder einzelne Parameter einen eigenen Einfluss auf die Funktion.</li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div>
+                        <h1 class="ml-4">Frage?</h1>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>Wie verändert sich die Nullstelle einer Funktion in Abhängigkeit von den Parametern?</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-6">
+                      <div>
+                        <h1 class="ml-4">Beispiel</h1>
+                      </div>
+                    </div>
+                    <div class="col-6 text-center">
+                        <h5>$$f(x) = -1 \cdot (x+b)^2 +3 $$</h5>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-3">
+                      <div>
+                        <h3>Arbeitsauftrag</h3>
+                      </div>
+                    </div>
+                    <div class="col-9">
+                        
+                        <ol>
+                            <li style="margin-bottom:12px">Fangen Sie mit einer Vorüberlegung an: Ändern sich die Nullstellen durch den Parameter b? Wenn ja, inwiefern? Notieren Sie ihre Überlegungen in Ihr Heft.</li>
+                            <li>
+                                Stellen Sie nun mathematisch fest, wie die Nullstelle sich in Abhängigkeit von b verändert. Notieren Sie Ihre Rechnung in Ihr Heft. <a style="color:blue" data-toggle="tooltip"  title="Behandeln Sie b wie eine ganz gewönliche Zahl in einer Gleichung!">Tipp</a>
+                            </li>
+                            <li>
+                                Prüfen Sie nun in dem unten stehendem Applet nach, ob Sie mit Ihrer Rechnung richtig liegen. Tippen Sie dafür als erstes die Beispielsfunktion in die Konsole. Tippen Sie dann für die Nullstellen die beiden Punkte $$A = (x_0, 0)$$ und $$B = (x_1, 0)$$ in die Konsole ein. Der Befehl für ein Wurzelausdruck lautet: sqrt() <a style="color:blue" data-toggle="tooltip"  title="Die Funktion wird auf folgende Weise in die Konsole getippt: f(x) = (x+b)^2. 
+                                
+                                Bei den Punkten ist zu beachten, dass x_0 und x_1 die ausgerechneten Nullstellen darstellen.">Hilfe</a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+            </div>
+            
+        <!-- Einfügen eines GeoGebra Applets -->
+        <div id="ggb-element"></div> 
+        <script>  
+            var geo_app = "fxcjyqcw"
+           
+            var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": true, "showMenuBar": false};
+            var applet = new GGBApplet(params, true);
+            window.addEventListener("load", function() { 
+                applet.inject('ggb-element');
+            });
+        </script>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                  <div>
+                    <h3>Fertig?</h3>
+                  </div>
+                </div>
+                <div class="col-9">
+                    <ol>
+                        <li>
+                            Prüfen Sie nun auf die gleiche Art und Weise, inwiefern sich der Hochpunkt in Abhängigkeit von dem Parameter b verschiebt.</li>
+                        <li>
+                            Nun schreiben sie die 3 unserer Funktionsgleichung ebenfalls als Parameter c. Wie verhalten sich nun die Nullstellen und der Hochpunkt zu den Parametern b und c? Was hat sich zu den vorher berechneten Nullstellen und dem Hochpunkt in Abhängigkeiten von b verändert?
+                        </li>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Wenn ein Tooltip eingefügt werden soll -->
+        <!-- <a style="color:blue" data-toggle="tooltip"  title="Fangen Sie so an: g(x) = af(x+b)+c">Lösung</a> -->
+
+        <script>
+                $(document).ready(function(){
+                  $('[data-toggle="tooltip"]').tooltip();
+                });
+              
+        </script>
+
+       
+    </div>
+    </container>
+    
+</body>
+<script src="script.js"></script>
+    
+</html>
