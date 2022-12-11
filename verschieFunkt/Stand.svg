@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Stand.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0141844"
+     inkscape:cx="324.89162"
+     inkscape:cy="321.93358"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5923">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="50"
+       y="420"
+       width="410"
+       height="100"
+       id="rect1404" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2121"
+       x="-0.056523403"
+       y="-0.11304681"
+       width="1.1130468"
+       height="1.2260936">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1285544"
+         id="feGaussianBlur2123" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       style="display:none;fill:#f9f9f9;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+       id="rect850"
+       width="42.333332"
+       height="15.875"
+       x="37.041668"
+       y="63.5"
+       ry="5.2916665" />
+    <g
+       id="g5923">
+      <rect
+         style="display:none;fill:#ffffff;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+         id="rect5813"
+         width="66.145836"
+         height="39.6875"
+         x="25.135414"
+         y="51.59375"
+         ry="0"
+         inkscape:export-filename="C:\Users\sebas\OneDrive\Dokumente\Referendariat\Html\sebeck1.github.io\verschieFunkt\verschieFunkt_Ver\Stand_jetzt.png"
+         inkscape:export-xdpi="96.660004"
+         inkscape:export-ydpi="96.660004" />
+      <g
+         id="g2129"
+         inkscape:export-filename="C:\Users\sebas\OneDrive\Dokumente\Referendariat\Html\sebeck1.github.io\verschieFunkt\verschieFunkt_Ver\Stand_jetzt.png"
+         inkscape:export-xdpi="96.660004"
+         inkscape:export-ydpi="96.660004">
+        <rect
+           style="opacity:0.675355;fill:#000000;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter2121);stop-color:#000000"
+           id="rect2082"
+           width="52.916664"
+           height="26.458332"
+           x="31.75"
+           y="59.108028"
+           ry="5.2916679" />
+        <rect
+           style="fill:#f9f9f9;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+           id="rect848"
+           width="52.916664"
+           height="26.458332"
+           x="31.75"
+           y="58.208332"
+           ry="5.2916679" />
+        <text
+           xml:space="preserve"
+           id="text1402"
+           style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';word-spacing:0px;white-space:pre;shape-inside:url(#rect850)"
+           transform="translate(1.8083101,2.5481787)"><tspan
+             x="40.056885"
+             y="67.313191"
+             id="tspan5961">Was haben Sie in </tspan><tspan
+             x="37.041016"
+             y="72.604855"
+             id="tspan5963">Erfahrung gebracht?</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
