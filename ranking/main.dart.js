@@ -65697,12 +65697,12 @@ gel(){return[this.a]}}
 A.vw.prototype={
 gel(){return A.a7(A.ca(null))}}
 A.vl.prototype={
-S(a){var s,r,q,p=null,o=t.E,n=A.a([A.dU(" ",p,p),A.dU("Die Zusammensetzung deiner Punkte:",p,p),new A.CE(p)],o)
+S(a){var s,r,q,p=null,o=t.E,n=A.a([A.dU(" ",p,p),A.dU("Die Zusammensetzung eurer Punkte:",p,p),new A.CE(p)],o)
 B.b.I(n,new A.Z4(this).$0())
 s=this.c
 r=this.d.a
 q=J.ar(r)
-return new A.u9(A.dU(""+(s+1),A.fb(p,p,p,p,p,p,p,p,p,p,p,30,p,p,B.ah,p,p,!0,p,p,p,p,p,p,p,p),p),A.tz(A.a([A.dU("Dein Teamname: ",p,p),A.dU(J.ag0(q.i(r,s)),A.fb(p,p,p,p,p,p,p,p,p,p,p,p,p,p,B.ah,p,p,!0,p,p,p,p,p,p,p,p),p)],o),B.b4,B.aW),A.dU("Deine Punkte: "+J.cY(q.i(r,s).guu()),p,B.ei),n,B.jG,p)}}
+return new A.u9(A.dU(""+(s+1),A.fb(p,p,p,p,p,p,p,p,p,p,p,30,p,p,B.ah,p,p,!0,p,p,p,p,p,p,p,p),p),A.tz(A.a([A.dU("Euer Teamname: ",p,p),A.dU(J.ag0(q.i(r,s)),A.fb(p,p,p,p,p,p,p,p,p,p,p,p,p,p,B.ah,p,p,!0,p,p,p,p,p,p,p,p),p)],o),B.b4,B.aW),A.dU("Eure Punkte: "+J.cY(q.i(r,s).guu()),p,B.ei),n,B.jG,p)}}
 A.Z4.prototype={
 $0(){var s,r={},q=A.a([],t.Nb)
 r.a=null
