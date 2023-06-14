@@ -1,6 +1,6 @@
 {
-    "name": "teachswiper",
-    "short_name": "teachswiper",
+    "name": "new_teacher_swiper",
+    "short_name": "new_teacher_swiper",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
