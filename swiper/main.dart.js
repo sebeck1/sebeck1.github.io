@@ -68247,7 +68247,7 @@ c=j[1]
 i=j[2]
 h=[400*d/(d+27.13),400*c/(c+27.13),400*i/(i+27.13)]
 return new A.a2D(l,(40*h[0]+20*h[1]+h[2])/20*k,k,k,a1,1,q,m,A.zK(m,0.25),1.48+e)})
-r($,"aAL","qD",()=>{var q=A.a([A.hh("brenig.jpg",1,"Herr Brening"),A.hh("loest.jpg",2,"Herr Loest"),A.hh("lueking.jpg",3,"Herr Lueking"),A.hh("bolz.jpg",4,"Frau Bolz"),A.hh("heupel.jpg",5,"Frau Heupel"),A.hh("akbaba.jpg",6,"Frau Akbaba"),A.hh("clemens.jpg",7,"Herr Clemens"),A.hh("hein.jpg",8,"Frau Hein"),A.hh("nowak.jpg",9,"Herr Nowak"),A.hh("soppa.jpg",10,"Herr Soppa"),A.hh("spilker.jpg",11,"Frau Spilker"),A.hh("vens.jpg",12,"Herr Vens")],A.a0("t<GB>"))
+r($,"aAL","qD",()=>{var q=A.a([A.hh("brenig.jpg",1,"Herr Breninghhhhhhhhhhhhh\nhhhhhhhhhhhhhhhhhhhhhhh}n\nhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\nzuzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\nzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\nzzzzzzzzzzzzzzzz\nzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"),A.hh("loest.jpg",2,"Herr Loest"),A.hh("lueking.jpg",3,"Herr Lueking"),A.hh("bolz.jpg",4,"Frau Bolz"),A.hh("heupel.jpg",5,"Frau Heupel"),A.hh("akbaba.jpg",6,"Frau Akbaba"),A.hh("clemens.jpg",7,"Herr Clemens"),A.hh("hein.jpg",8,"Frau Hein"),A.hh("nowak.jpg",9,"Herr Nowak"),A.hh("soppa.jpg",10,"Herr Soppa"),A.hh("spilker.jpg",11,"Frau Spilker"),A.hh("vens.jpg",12,"Herr Vens")],A.a0("t<GB>"))
 B.b.uy(q)
 return q})
 r($,"awI","adX",()=>B.b.bf($.qD(),0,3))
